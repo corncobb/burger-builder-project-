@@ -1,5 +1,5 @@
 import axios from 'axios';
-import data from './config'
+import data from './config';
 
 const instance = axios.create({
     baseURL: data.firebase.baseURL
